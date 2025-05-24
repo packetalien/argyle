@@ -1,0 +1,18 @@
+A Compendium of Curious Cyber Contraptions & Phantastical Phishing Phools
+(As Imagined by the Argyle Agency's Department of Applied Whimsy)
+
+For the amusement and edification of our trainees.
+
+1. The Aetheric Packet Sniffer Mark I:
+A device of brass and polished mahogany, festooned with vacuum tubes and blinking gas lamps. Allegedly capable of 'sniffing' out rogue data packets from the very aether itself. Requires three strong men to carry and a small boy to polish the brass. Mostly decorative.
+
+2. Dr. Watson's Patent Anti-Malware Liniment:
+A fragrant concoction of carbolic acid, good intentions, and a hint of Earl Grey. Applied liberally to the computer's casing, it is said to ward off digital infections. Smells rather strongly, but effectiveness against actual malware is... debatable. (Note: Do NOT apply to actual computer equipment).
+
+3. The Moriarty-Proof Logic Engine Cover:
+A large, lead-lined tea cosy. Simply place over your Babbage Engine or similar computational device to prevent Professor Moriarty from remotely accessing your calculations. Side effects include overheating and muffled ticking noises.
+
+4. Mycroft's "All-Seeing Eye" Network Monitor:
+Rumoured to be a complex system of mirrors, lenses, and well-placed informants with fast carrier pigeons. Provides an overview of all network traffic within the government. Or perhaps it's just Mycroft reading everyone's emails. He's not telling.
+
+Disclaimer: These contraptions are purely fictional and intended for humorous illustrative purposes. Relying on a tea cosy for your cybersecurity is ill-advised, even in a simulation.

@@ -1,8 +1,10 @@
 body {
-  font-family: "Times New Roman", serif;
-  background-color: #f4e9db;
+  font-family: "Garamond", "Baskerville", "Times New Roman", serif;
+  background-color: #f5f5dc; /* Beige */
+  color: #5D4037; /* Dark brown */
   margin: 0;
   padding: 0;
+  background-image: url('old-paper-texture.png'); /* Subtle paper texture */
 }
 
 header, nav, section, footer {
@@ -12,43 +14,72 @@ header, nav, section, footer {
 }
 
 header {
-  background-color: #302a20;
-  color: #fff;
+  background-color: #5D4037; /* Darker brown */
+  color: #f5f5dc; /* Beige text */
   text-align: center;
+  border-bottom: 2px solid #302a20; /* Divider */
+}
+
+nav {
+  border-bottom: 1px solid #302a20; /* Divider */
+  text-align: center; /* Center nav items */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0; /* Add some margin for spacing */
 }
 
 nav li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 15px; /* Adjust spacing */
+  margin-left: 15px; /* Adjust spacing */
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 15px; /* Space after the separator */
+  color: #302a20; /* Separator color */
+}
+
+nav li:last-child::after {
+  content: ""; /* Remove separator from last item */
 }
 
 nav a {
   text-decoration: none;
-  color: #302a20;
+  color: #5D4037; /* Dark brown for links */
+  font-weight: bold; /* Make links slightly bolder */
 }
 
 section.content {
-  background-color: #fff;
+  background-color: #fdf5e6; /* Old Lace - slightly off-white for content background */
   border: 2px solid #302a20;
   padding: 20px;
   margin-top: 20px;
+  box-shadow: 5px 5px 10px #888888; /* Subtle shadow for depth */
 }
 
 .detective {
   margin-bottom: 20px;
-  padding: 10px;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #faf0e6; /* Linen - for a slightly different article background */
+  border: 1px dashed #5D4037; /* Dashed border for article look */
+  border-radius: 5px; /* Slightly rounded corners */
 }
 
 footer {
-  background-color: #302a20;
-  color: #fff;
+  background-color: #5D4037; /* Darker brown */
+  color: #f5f5dc; /* Beige text */
   text-align: center;
   clear: both;
+  padding: 10px; /* Adjust padding */
+  margin-top: 20px; /* Add space above footer */
+  border-top: 2px solid #302a20; /* Divider */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", "Times New Roman", serif; /* Ornate font for headings */
+  color: #302a20; /* Darker color for headings */
 }

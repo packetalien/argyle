@@ -1,0 +1,63 @@
+/* Styles for Professor Moriarty's Academy page */
+
+body {
+    background-color: #0d0208; /* Near black */
+    color: #e0e0e0; /* Off-white */
+    font-family: Georgia, serif; /* Standard, readable serif */
+    margin: 0;
+    padding: 0;
+    /* Optional: background-image: url('cracked_stone.png'); */
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark grey, slightly lighter than body */
+    border: 2px solid #4a004a; /* Dark purple accent */
+}
+
+h1, h2, h3, h4, h5, h6 { /* Applied to all heading levels for consistency */
+    font-family: 'Cinzel', serif; /* Thematic, somewhat imposing serif (Google Font candidate) */
+    color: #b8860b; /* Darkgoldenrod */
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header, footer {
+    background-color: #000000; /* Black */
+    color: #e0e0e0; /* Off-white, matching body text */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid #6a0dad; /* Menacing purple */
+}
+
+footer {
+    border-top: 2px solid #6a0dad; /* Menacing purple */
+}
+
+a {
+    color: #32cd32; /* Lime green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #28a428; /* Slightly darker lime green */
+    text-decoration: underline;
+}
+
+.content-section {
+    background-color: rgba(0,0,0,0.2); /* Slightly transparent black overlay */
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px dashed #555; /* Dashed dark grey border */
+}
+
+/*
+    Attempting to import Google Fonts (Cinzel for headings).
+    If this doesn't work in the environment, the fallback 'serif' will be used.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
